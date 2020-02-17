@@ -1,0 +1,29 @@
+.app-title {
+    margin-bottom: 0;
+}
+
+.container {
+    background-color: darkgray;
+    margin: 25px;
+    padding: 25px;
+    border-radius: 25px;
+    /* opacity: 80%; */
+}
+
+.checkbox-container {
+    width: 100%;
+}
+
+.filter-region-container, .filter-completion-container {
+    display:flex;
+    justify-content: space-evenly;
+}
+.filter-region, .filter-completion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset-button {
+    margin: 20px;
+}
